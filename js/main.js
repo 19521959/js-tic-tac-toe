@@ -1,10 +1,14 @@
+import { getCellElementList, getCurrentTurnElement, getGameStatusElement } from "./selectors.js";
+
 /**
  * Global variables
  */
 let currentTurn = "cross";
 let isGameEnded = false;
 let cellValues = new Array(9).fill("");
-
+console.log(getCellElementList());
+console.log(getCurrentTurnElement());
+console.log(getGameStatusElement());
 /**
  * TODOs
  *
